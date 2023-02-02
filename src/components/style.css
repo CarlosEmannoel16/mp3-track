@@ -1,0 +1,138 @@
+* {
+  transition: 0.7s;
+}
+
+.areaImage {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 0px 4rem;
+}
+
+.areaImage h1 {
+  margin-top: 3rem;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 80vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.right::after {
+  content: "";
+  width: calc(100%);
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(0, 0, 0, 0.783333401720063) 55%,
+    rgba(0, 0, 0, 0.6292717770702031) 73%,
+    rgba(0, 0, 0, 0.37156869583771013) 87%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  position: relative;
+  display: inline-block;
+}
+
+.buttonSize {
+  width: 15rem;
+  height: 15rem;
+  background: none;
+  border: none;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.areaDowPlayer {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  transition: none;
+}
+
+.icon:hover {
+  opacity: 0.6;
+}
+
+.iconTop {
+  color: #fff;
+  font-size: 4rem;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 8%;
+}
+.gifMusic {
+  height: 100%;
+  width: 100%;
+}
+
+.imageMusicMiniature {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 5px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.musicRow {
+  width: auto;
+  height: calc(10px + 100%);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5%;
+  cursor: pointer;
+  color: #fff;
+  transition: none;
+  margin-top: 0.5rem;
+}
+
+.musicRow:hover {
+  opacity: 0.5;
+}
+
+.musicRow > p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.gifArea {
+  height: 2rem;
+}
+
+.buttonIconTop {
+  margin-top: 3rem;
+  background-color: #3a89ff;
+  border: navajowhite;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.leftBar {
+  overflow: hidden;
+  background-color: #000000;
+  height: 100vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

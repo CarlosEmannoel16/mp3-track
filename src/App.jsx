@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import Player from "./components/Player"
+import { useState } from "react";
+import Player from "./components/Player";
+import "./style.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <h1>MP3 Player</h1>
-      <Player song={"Isto é uma música"} />
+      <Player />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
